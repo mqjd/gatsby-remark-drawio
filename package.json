@@ -22,5 +22,8 @@
   "homepage": "https://github.com/mqjd/gatsby-remark-drawio#readme",
   "dependencies": {
     "unist-util-visit": "^4.1.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+ }
 }

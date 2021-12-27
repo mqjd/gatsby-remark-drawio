@@ -24,9 +24,7 @@ exports.onInitialClientRender = (n, options) => {
         (drawioViewerElement) => {
           var url = drawioViewerElement.getAttribute("url");
           if (url.indexOf("http") != 0) {
-            url =
-              "https://cdn.jsdelivr.net/gh/mqjd/bigdata-notes/docs/.vuepress/public/" +
-              url;
+            url = options.baseUrl + url;
           }
           var d = { ...options, url };
           GraphViewer.getUrl(d.url, function (e) {
