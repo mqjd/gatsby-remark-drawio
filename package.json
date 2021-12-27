@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-drawio",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "drawio viewer for gatsby",
   "main": "index.js",
   "repository": {
