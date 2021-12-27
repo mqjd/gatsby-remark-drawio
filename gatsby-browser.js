@@ -18,7 +18,7 @@ exports.onInitialClientRender = (n, options) => {
   })(document.head || document.getElementsByTagName("head")[0]);
 
   importScript(
-    "https://cdn.jsdelivr.net/gh/mqjd/assets/master/js/viewer.min.js",
+    "https://cdn.jsdelivr.net/gh/mqjd/assets/js/viewer.min.js",
     function () {
       Array.from(document.getElementsByClassName("drawio-viewer")).forEach(
         (drawioViewerElement) => {
